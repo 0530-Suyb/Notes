@@ -1,0 +1,12 @@
+1、本地仓库创建 git init
+2、信息填入 git config --global user.name ""
+	   git config --global user.email ""
+3、文件上传本地仓库
+    git add .
+    git commit -m ""
+4、绑定远程仓库
+     先创建连接 git remote add origin SSH地址
+5、上传远程仓库
+     git push -u origin master
+6、拉取远程仓库
+     git pull origin master
